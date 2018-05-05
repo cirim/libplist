@@ -1,0 +1,47 @@
+version: 2
+jobs:
+  build-debug:
+    machine:
+      image: ubuntu-1604:201903-01
+    steps:
+      - checkout
+      - run: sudo apt-get update
+      - run: sudo apt-get -y install wget
+      - run: sudo apt-get -y install unzip
+      - run: make arch="--debug" all
+  build-release:
+    machine:
+      image: ubuntu-1604:201903-01
+    steps:
+      - checkout
+      - run: sudo apt-get update
+      - run: sudo apt-get -y install wget
+      - run: sudo apt-get -y install unzip
+      - run: make arch="--release" all
+  build-test:
+    machine:
+      image: ubuntu-1604:201903-01
+    steps:
+      - checkout
+      - run: sudo apt-get update
+      - run: sudo apt-get -y install wget
+      - run: sudo apt-get -y install unzip
+      - run: make flavour="--test" all
+  build-clean:
+    machine:
+      image: ubuntu-1604:201903-01
+    steps:
+      - checkout
+      - run: sudo apt-get update
+      - run: sudo apt-get -y install wget
+      - run: sudo apt-get -y install unzip
+      - run: make flavour="--clean" all
+workflows:
+  version: 2
+  libplist_builds:
+    jobs:
+      - build-debug
+      - build-release
+      - build-test
+      - build-clean
+

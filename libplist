@@ -1,0 +1,37 @@
+[  3%] Building C object libcnary/CMakeFiles/libcnary.dir/iterator.c.o
+[  6%] Building C object libcnary/CMakeFiles/libcnary.dir/list.c.o
+[  9%] Building C object libcnary/CMakeFiles/libcnary.dir/node.c.o
+[ 12%] Building C object libcnary/CMakeFiles/libcnary.dir/node_iterator.c.o
+[ 16%] Building C object libcnary/CMakeFiles/libcnary.dir/node_list.c.o
+[ 19%] Linking C static library libcnary.a
+[ 19%] Built target libcnary
+[ 22%] Building C object src/CMakeFiles/plist.dir/plist.c.o
+[ 25%] Building C object src/CMakeFiles/plist.dir/hashtable.c.o
+[ 29%] Building C object src/CMakeFiles/plist.dir/bytearray.c.o
+[ 32%] Building C object src/CMakeFiles/plist.dir/ptrarray.c.o
+[ 35%] Building C object src/CMakeFiles/plist.dir/bplist.c.o
+[ 38%] Building C object src/CMakeFiles/plist.dir/base64.c.o
+[ 41%] Building C object src/CMakeFiles/plist.dir/xplist.c.o
+[ 45%] Linking C shared library libplist.so
+[ 45%] Built target plist
+[ 48%] Building CXX object src/CMakeFiles/plist++.dir/Node.cpp.o
+[ 51%] Building CXX object src/CMakeFiles/plist++.dir/Boolean.cpp.o
+[ 54%] Building CXX object src/CMakeFiles/plist++.dir/Integer.cpp.o
+[ 58%] Building CXX object src/CMakeFiles/plist++.dir/Real.cpp.o
+[ 61%] Building CXX object src/CMakeFiles/plist++.dir/String.cpp.o
+[ 64%] Building CXX object src/CMakeFiles/plist++.dir/Date.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/plist++.dir/Data.cpp.o
+[ 70%] Building CXX object src/CMakeFiles/plist++.dir/Structure.cpp.o
+[ 74%] Building CXX object src/CMakeFiles/plist++.dir/Array.cpp.o
+[ 77%] Building CXX object src/CMakeFiles/plist++.dir/Dictionary.cpp.o
+[ 80%] Linking CXX shared library libplist++.so
+[ 80%] Built target plist++
+[ 83%] Building C object plutil/CMakeFiles/plutil.dir/plutil.c.o
+[ 87%] Linking C executable plutil
+[ 87%] Built target plutil
+[ 90%] Building C object test/CMakeFiles/plist_test.dir/plist_test.c.o
+[ 93%] Linking C executable plist_test
+[ 93%] Built target plist_test
+[ 96%] Building C object test/CMakeFiles/plist_cmp.dir/plist_cmp.c.o
+[100%] Linking C executable plist_cmp
+[100%] Built target plist_cmp

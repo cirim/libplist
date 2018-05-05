@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/plutil.dir/plutil.c.o  -o plutil-1.8 -rdynamic ../src/libplist.so.1.1.8 -lxml2 -Wl,-rpath,/home/predator/Documents/Project/temp/libplist/src: 

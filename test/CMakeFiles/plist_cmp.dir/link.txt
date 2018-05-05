@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/plist_cmp.dir/plist_cmp.c.o  -o plist_cmp -rdynamic ../src/libplist.so.1.1.8 -lxml2 -Wl,-rpath,/home/predator/Documents/Project/temp/libplist/src 
